@@ -1,0 +1,616 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/* //////header css/////// */
+body{
+    width: 100%;
+}
+header{
+    background-color: #0025ff;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 85px;
+    padding: 16px;
+}
+.product H3{
+    color: white;
+    font-family: Cervo Neue Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    padding-top: 30px;
+
+}
+.sidebar i{
+ color: white;
+ font-size: 30px;
+ padding: 28px;
+}
+
+.mainbody{
+    width: 100%;
+}
+.VIDEO1{
+    width: 100%;
+}
+.VIDEO1 video{
+    /* top: 13%;  */
+    width: 100%;
+
+}
+.head{
+    background-color: black;
+    width: 100%;
+    height: 390px;
+    margin-top: -5px;
+
+}
+
+
+.head h1{
+    text-align: center;
+    color: white;
+    font-size: 75px;
+   font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+.H1{
+    line-height: 20px;
+    padding-top: 60px;
+}
+.head h2{
+    text-align: center;
+    color: white;
+    font-size: 45px;
+   font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    line-height: 30px;
+ 
+}
+.head h3{
+    text-align: center;
+    color:#0025ff;
+    font-size: 40px;
+   font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing:-2px;
+}
+.head h4{
+    text-align: center;
+    color:#0025ff;
+    font-size: 40px;
+   font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing:-2px;
+}
+.imgage{
+    width: 100%;
+    height: 500px;
+}
+.imgage img{
+   width: 100%;
+   height: 500px;
+   margin-top: -5px;
+}
+.writes{
+    background-color: black;
+    height: 280px;
+    text-align: center;
+    margin-top: -5px;
+}
+
+.writes> h1{
+    font-size: 65px;
+    font-weight: 1000;
+    letter-spacing: -1px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.writes h1>span{
+    color:#0025ff;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.writes h4{
+    color:#0025ff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.imgg{
+    width:100%;
+}
+.imgg img{
+    width: 100%;
+  
+}
+.writing{
+    background-color: black;
+    height: 120px;
+    width: 100%;
+    margin-top: -5px;
+    
+    
+}
+.writing p{
+    color: white  ;
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.video2{
+    width: 100%;
+}
+.video2 video{
+    width: 100%;
+}
+.pepsiback{
+    width: 100%;
+    position: relative;
+}
+.pepsiback{
+    background-image: url("img/background.png");
+    background-position:center;
+    background-size: auto;
+    height: 600px;
+    margin-top: -5px;
+}
+
+.mainsec{
+    display: flex;
+    justify-content: space-between;
+}
+.sec1{
+    width: 50%;
+}
+.sec1 img{
+    width: 620px;
+    position: relative;
+    bottom: 0;
+    top:20%;
+    left: 50px;
+}
+.sec2{
+    width: 50%;   
+}
+.sec2 img{
+    position: relative;
+    top: 18%;
+    right: 10px;
+    left: 30px;
+    width: 370px;
+}
+.sec3{
+    position: relative;
+    top: 30%;
+    width: 48%;
+    text-align: center;
+    left: 40px;
+}
+.sec3 button{
+    border: 2px solid white;
+    border-radius: 15px;
+    color:white;
+    padding: 9px 30px;
+    background-color: transparent;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:1000;
+    cursor: pointer;
+    
+}
+.sec3 button:hover{
+    background-color: white;
+    color: #0025ff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 9000;
+
+}
+
+.sec3 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 9000;
+    color:white;
+    width: 450px;
+}
+.animpics{
+    width: 100%;
+    background-color: black;
+    height: 370px;
+    
+}
+.animpics>h1{
+    color:blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    padding: 30px  5px;
+    font-size: 50px;
+   
+}
+.animation{
+    display: flex;
+    border: 4px solid blue;
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+.pic1 img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+.pic1 img:hover{
+    animation:swing;
+    animation-duration: 1s;
+    cursor: pointer;
+}
+.footer{
+    color:white;
+    width: 100%;
+    background-color: #0025ff;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.foot1 li{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+position: relative;
+top: 40%;
+line-height: 30px;
+}
+.logo1{
+    position: relative;
+    top: 34%;
+    right: 20px;
+    left: 20px;
+   
+}
+.logo1 img{
+    width: 100px;
+}
+.logo1 img:hover{
+    width: 100px;
+    animation:flash;
+    animation-duration: 1s;
+    cursor: pointer;
+}
+.foot1 i{
+    position: relative;
+top: 45%;
+right: 20px;
+font-size: 40px;
+padding-left: 20px;
+}
+@media only screen and (max-width:1025px){
+    .mainsec{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+    }
+    .pepsiback{
+        height: 964px;
+    }
+    .sec1{
+        width: 100%;
+    }
+    .sec1 img{
+        width: 625px;
+    }
+    .sec2{
+        width: 100%;   
+    }
+    .sec2 img{
+        position: relative;
+        /* left: 50%; */
+        width: 100%;
+    }
+    .sec2 img{
+        position: relative;
+        /* left: 40%; */
+        width: 370px;
+        margin-top: 15px;
+    }
+    .sec3{
+        width: 100%;
+    }
+    .sec3{
+        position: relative;
+        width: 100%;
+        text-align: center;
+         left: 30%;
+        width: 500px;
+    }
+    .sec3 button{
+        margin-bottom: 30px;
+        text-align: center; 
+        margin-top: 50px;
+        
+    }
+
+}
+@media only screen and (max-width:913px){
+    body{
+        width: 100%;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: 590px;
+    }
+    .logo1 {
+        position: relative;
+        top: 7%;
+    }
+    .foot1 li{
+        position: relative;
+        top: 31%;
+}
+  
+  .foot1 i{
+    position: relative;
+    margin-bottom: 50px;
+    
+}}
+@media only screen and (max-width:913px){
+    .writes>h1{
+       font-size: 50px;
+    }
+    .sec3 button{
+        margin-bottom: 30px;
+        text-align: center; 
+        margin-top: 50px;
+        position: relative;
+        left: -80px;
+        
+    }
+    .sec3 p{
+        width: 80%;
+        text-align: center;
+        position: relative;
+        left: -50px;
+    }
+}
+
+@media only screen and (max-width:680px){
+    .head{
+        height: 420px;
+    }
+    .head h1{
+        font-size: 60px;
+        color: white;
+    }
+    .writes>h1{
+        font-size: 44px;
+     }
+
+}
+@media only screen and (max-width:550px){
+    .writes>h1{
+        font-size: 46px;
+     }
+     .writes{
+        height: 300px;
+     }
+     .sec1 img{
+        position: relative;
+        left: -5px;
+     }
+     .sec3 button{
+        margin-bottom: 30px;
+        text-align: center; 
+        margin-top: 50px;
+        position: relative;
+        left: -120px;
+        
+    }
+    .sec3 p{
+        width: 80%;
+        text-align: center;
+        position: relative;
+        left: -60px;
+    }
+}
+
+@media only screen and (max-width:495px){
+    .head h1{
+        font-size: 50px;
+        color: white;
+    }
+    .head h2{
+        font-size: 40px;
+    }
+    .head{
+        height: 475px;
+    }
+    .VIDEO1 video{
+        margin-top: 40px;
+    }
+    .animpics>h1{
+        font-size: 40px;
+    }
+    .writes>h1{
+        font-size: 46px;
+     }
+     .writes{
+        height: 350px;
+     }
+    
+    }
+
+
+
+@media only screen and (max-width:400px){
+nav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;  
+        line-height: 0px;
+}
+.writes>h1{
+    font-size: 44px;
+ }
+ .writes{
+    height: 390px;
+ }
+ .head{
+    height: 470px;
+}
+.head h1{
+    font-size: 40px;
+    color: white;
+}
+.head h2{
+    font-size: 30px;
+}
+ 
+.VIDEO1 video{
+    margin-top: 200px;
+}
+.animpics>h1{
+    font-size: 35px;
+}
+
+}
+@media only screen and (max-width:520px){
+    .mainsec{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+    }
+    
+    .pepsiback{
+        height: 895px;
+    }
+    .sec1{
+        width: 100%;
+    }
+    .sec1 img{
+        width: 540px;
+        position: relative;
+        /* left: -20px; */
+    }
+    .sec2{
+        width: 100%;   
+    }
+    .sec2 img{
+        position: relative;
+        left: 10px;
+        width: 100%;
+    }
+    .sec2 img{
+        position: relative;
+    
+        width: 370px;
+        margin-top: 15px;
+    }
+    .sec3{
+        width: 100%;
+    }
+    .sec3{
+        position: relative;
+        width: 100%;
+       
+  
+    }
+    .sec3 button{
+        margin-bottom: 30px;
+        text-align: center; 
+        margin-top: 50px;
+        position: relative;
+        left: 0px;
+        
+    }
+    /* .sec3 p{
+        width: 50%;
+        text-align: center;
+        position: relative;
+        left: 60px;
+    }
+    .sec3 button{
+        margin-bottom: 30px;
+        text-align: center; 
+        margin-top: 30px;
+        position: relative;
+        
+    } */
+    .sec3 p{
+        width: 80%;
+        text-align: center;
+        position: relative;
+        left: 40px;
+    }
+    .sec3{
+        position: relative;
+        left: 10px;
+    }
+}
+@media only screen and (max-width:450px){
+    .sec1 img{
+        width: 520px;
+    }
+}
+@media only screen and (max-width:420px){
+    .sec1 img{
+        position: relative;
+        left: -35%;
+        width: 575px;
+    }
+    .sec2 img{
+        width: 300px;
+    }
+    
+}
+@media only screen and (max-width:379px){
+    .sec1 img{
+        position: relative;
+        left: -38%;
+        width: 608px;
+    }
+    .pepsiback{
+        height: 938px;
+    }
+}
+@media only screen and (max-width:360px){
+    .sec2 img{
+        width: 280px;
+    }
+    .sec1 img{
+        position: relative;
+        left: -38%;
+        width: 600px;
+    }
+    .pepsiback{
+        height: 918px;
+    }
+    .writing p{
+        padding: 10px 2px;
+        margin-bottom: 50px;
+    }
+
+}
+
+
+
+
+
+
